@@ -128,7 +128,7 @@ $(".list-group").on("blur", "input[type='text']", function() {
 
   // recreate span element with boostrap classes
   var taskSpan = $("<span>")
-    .addClass("badage badge-primary badge-pill")
+    .addClass("badge badge-primary badge-pill")
     .text(date);
   
   // replace input with span element
